@@ -1,13 +1,18 @@
 .navbar {
-  background: #000;
+  background: transparent;
   height: 60px;
   width: 100%;
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 10px 0;
   z-index: 100;
+  transition: all 0.2s ease-in;
+}
+
+.navbar_dark {
+  background: #000;
 }
 
 .navbar .container {

@@ -16,8 +16,6 @@ function MoviesRow({title, fetchURL}) {
         fetchMovies();
     }, []);
 
-    console.log(movies);
-
     return (
         <div className='movie-row'>
             <h2>{title}</h2>

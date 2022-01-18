@@ -1,0 +1,57 @@
+.herosection {
+  height: 75vh;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.herosection h2 {
+  color: #fff;
+  text-align: left;
+  font-size: 45px;
+  max-width: 60%;
+  line-height: 1.2em;
+}
+
+.herosection p {
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+}
+
+.herosection .movie-details {
+  margin-left: 25px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;  
+}
+
+.movie-details .description {
+   max-width: 450px;
+}
+
+.movie-details .buttons {
+  display: flex;
+  margin: 15px 0;
+}
+
+.movie-details .buttons .btn {
+  background: rgba(51, 51, 51, 0.6);
+  color: #fff;
+  padding: 10px 40px;
+  height: 42px;
+  border: none;
+  outline: none;
+  margin-right: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.movie-details .buttons .btn:hover {
+  background: #f0f0f0;
+  color: #000;
+  transition: all 0.2s;
+}
