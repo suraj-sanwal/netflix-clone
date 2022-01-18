@@ -1,0 +1,30 @@
+.navbar {
+  background: #000;
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 100;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+
+.navbar .logo {
+  width: 120px;
+  height: auto;
+}
+
+.navbar .logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
