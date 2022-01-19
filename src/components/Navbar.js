@@ -3,7 +3,7 @@ import logo from '../images/Netflix-Logo.png';
 import '../styles/Navbar.css';
 
 function Navbar() {
-    const [ show, hidebackground] = useState([]);
+    const [ show, hidebackground] = useState(false);
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -15,7 +15,7 @@ function Navbar() {
         });
         return () => {
             window.removeEventListener('scroll');
-        }
+        };
     }, []);
 
     return(

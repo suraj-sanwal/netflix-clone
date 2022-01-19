@@ -24,11 +24,11 @@ function HeroSection() {
         }}>
             <div className="movie-details">
               <h2>{movie.title ? movie.title : movie.original_name}</h2>
+              <p className="description">{movie.overview}</p>
               <div className="buttons">
                   <button className="btn">Play</button>
                   <button className="btn">My List</button>
               </div>
-              <p className="description">{movie.overview}</p>
             </div>
         </div>
     )
