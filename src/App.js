@@ -4,6 +4,7 @@ import MoviesRow from './components/MoviesRow';
 import requests from './helpers/requests';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <MoviesRow title="Comedy Movies" fetchURL={requests.comedyMovies} />
         <MoviesRow title="Romantic Movies" fetchURL={requests.romanticMovies} />
       </div>
+      <Footer />
     </div>
   );
 }
